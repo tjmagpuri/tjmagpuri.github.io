@@ -1,0 +1,50 @@
+#border {
+  border: 1px solid red;
+}
+#tyler{
+  display: block;
+}
+#descript{
+  font-size: 28px;
+  font-family: "Athelas";
+  font-weight:bold;
+}
+#mainnav{
+
+}
+#bars{
+  height: 75px;
+  width: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f8f8ff+0,f8f8ff+49,f8f8ff+52,f8f8ff+100&1+0,0.04+100 */
+background: -moz-linear-gradient(top, rgba(248,248,255,1) 0%, rgba(248,248,255,0.53) 49%, rgba(248,248,255,0.5) 52%, rgba(248,248,255,0.04) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(248,248,255,1) 0%,rgba(248,248,255,0.53) 49%,rgba(248,248,255,0.5) 52%,rgba(248,248,255,0.04) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(248,248,255,1) 0%,rgba(248,248,255,0.53) 49%,rgba(248,248,255,0.5) 52%,rgba(248,248,255,0.04) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8ff', endColorstr='#0af8f8ff',GradientType=0 ); /* IE6-9 */
+}
+#bars2{
+  height:75px;
+  width:100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f8f8ff+0,f8f8ff+49,f8f8ff+52,f8f8ff+100&0+1,1+100 */
+background: -moz-linear-gradient(top, rgba(248,248,255,0) 0%, rgba(248,248,255,0) 1%, rgba(248,248,255,0.48) 49%, rgba(248,248,255,0.51) 52%, rgba(248,248,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(248,248,255,0) 0%,rgba(248,248,255,0) 1%,rgba(248,248,255,0.48) 49%,rgba(248,248,255,0.51) 52%,rgba(248,248,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(248,248,255,0) 0%,rgba(248,248,255,0) 1%,rgba(248,248,255,0.48) 49%,rgba(248,248,255,0.51) 52%,rgba(248,248,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f8f8ff', endColorstr='#f8f8ff',GradientType=0 ); /* IE6-9 */
+
+}
+#topnav{
+  padding-right: 20px;
+}
+#bottomnav{
+  padding: 10px 60px 60px 0px;
+
+  font-family: "Raleway";
+  font-weight:bold;
+  font-size: 24px;
+}
+#spacing{
+  padding-bottom: 50px;
+}
+#tylerprofile{
+  -webkit-filter: drop-shadow(10px 10px 8px #222);
+filter: drop-shadow(7px 7px 5px #222);
+}
