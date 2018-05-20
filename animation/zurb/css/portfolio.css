@@ -3,6 +3,8 @@
 }
 #tyler{
   display: block;
+  box-shadow: 5px 10px #888888;
+  padding-top: 10px;
 }
 #descript{
   font-size: 28px;
@@ -98,3 +100,86 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8ff', end
   top:;
   transform: translate(-50%, -50%);
 }
+@keyframes shake {
+  from,
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+.shake {
+  animation-name: shake;
+  animation-iteration-count: infinite;
+}
+#animate-h{
+  font-family: Avenir;
+  font-weight: bold;
+}
+.card-container {
+  height: 200px;
+  perspective: 600;
+  position: relative;
+  width: 400px;
+}
+.card {
+  height: 100%;
+  position: absolute;
+
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {/*front of card*/
+  backface-visibility: visible;
+  background: white;
+  border: solid black;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  padding-top:40px;
+  padding-left:85px;
+  font-family:Raleway;
+}
+.card .back {/*back of card*/
+   background: white;
+
+  transform: rotateY(180deg);
+}
+.space{
+  margin-bottom: 20px;
+}
+
+
+
+.heart{
+	  width: 100px;
+	  height: 100px;
+	  background-image: url("http://i.imgur.com/qzQkmGm.png");
+	  animation: playX 1s steps(29) infinite;
+	}
+
+	@keyframes playX {
+	  from {background-position-x: 0px;}
+	  to {background-position-x: -2900px;}
+	}
+  #hafez{
+    font-family: Athelas;
+  }
